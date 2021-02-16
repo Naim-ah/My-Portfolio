@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* ---header section-- */
+
+.header{
+    background: #232323;
+}
+.dropdown-menu[data-bs-popper] {
+    left: auto !important;
+    right: 0;
+    margin-top: .125rem;
+}
+.menu-items{
+    background:deeppink !important;
+}
+
+.menu-items li a {
+    color:#fff !important;
+}
+.logo a{
+    font-size:40px;
+    font-family: 'Kaushan Script', cursive;
+    color:orange !important;
+    
+}
+.img-box{
+    width:500px;
+    margin-top:100px;
+    margin-left:100px;
+}
+.text-title h2{
+    font-size:60px;
+    font-family: 'Kaushan Script', cursive;
+    color:greenyellow;
+}
+.text-title h3{
+    font-size:50px;
+    font-family: 'Kaushan Script', cursive;
+    color:rgb(166, 194, 11);
+}
+.text-title h4{
+    font-size:35px;
+    font-family: 'Kaushan Script', cursive;
+    color:rgb(201, 221, 88);
+}
+.text-title p{
+    font-size:16px;
+    font-family: 'Kaushan Script', cursive;
+    color:rgb(121, 121, 119);
+}
+
+/* -----about us section---- */
+
+.about-us,.services,.portfolio,.testimonial,.contact-section,.copyright{
+    background: #232323;
+}
+
+.heading-text{
+    font-size:50px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#e3ffe0;
+    letter-spacing:2px;
+    position:relative;
+    display:inline-block;
+    z-index:1
+}
+
+.heading-text::after{
+    content: '';
+    width:80px;
+    height:35px;
+    position:absolute;
+    background:linear-gradient(#009688,#fff);
+    top:-15px;
+    left:0;
+    transform:rotate(5deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    z-index:-1;
+    
+}
+
+.about-title-text{
+    font-size:30px;
+    line-height:50px;
+    font-weight:bold;
+}
+.about-text-sm{
+    font-size:20px;
+    line-height:30px;
+    color:rgb(112, 112, 112);
+}
+.social-links i{
+    margin-left:10px;
+    color:#fff;
+}
+.progress-items{
+    margin-left:35px;
+}
+
+/* -----services--- */
+
+.icon i{
+    font-size: 40px;
+    color:orangered;
+    margin-bottom:25px;
+}
+
+/* freelancing */
+
+.freelancing{
+    background:rgb(27, 83, 4);
+}
+
+/* testimonial-social */
+
+.testimonial-social i{
+    color:orange;
+}
+/* contact-itens */
+.contact-itens i{
+    color:orangered;
+}
+
+
+/* ------media screen---- */
+
+@media only screen and (max-width: 600px){
+    .img-box{
+        width:200px;
+    }
+    .text-title h2{
+        font-size:30px;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height:20px;
+    }
+    }
+    .about-title{
+        font-size:20px;
+        line-height:35px;
+    }
+    .nav-section{
+        background: #232323;
+        height:auto;
+    }
+}
