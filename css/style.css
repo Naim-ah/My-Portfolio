@@ -6,6 +6,10 @@
 }
 /* ---header section-- */
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header{
     background: #232323;
 }
@@ -125,6 +129,31 @@
 /* contact-itens */
 .contact-itens i{
     color:orangered;
+}
+
+/* ----portfolio-items--- */
+
+.portfolio-items{
+ transition:transform 0.5s;
+}
+.portfolio-items:hover{
+    transform:translatey(-10px);
+}
+
+/* ---services-items */
+
+.services-items{
+    transition:transform 0.5s;
+}
+.services-items:hover{
+    transform:translatey(-10px);
+}
+/* ---testimonial-items--- */
+.testimonial-items{
+    transition:transform 0.5s;
+}
+.testimonial-items:hover{
+    transform:translatey(-10px);
 }
 
 
