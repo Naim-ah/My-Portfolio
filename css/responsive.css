@@ -1,0 +1,203 @@
+
+@media (min-width:993px) and (max-width:1200px){
+    
+    .img-box {
+        margin-left: 0px;
+    }
+    .services-text h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .portfolio-items h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .sm-text {
+        font-size: 14px !important;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:992px){
+    #Home .container {
+        padding: 0px;
+        max-width: 100% !important;
+    }
+    .navbar {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        background: rgb(230, 230, 230);
+    }
+    .text-title h4 {
+        font-size: 40px;
+    }
+    .text-title h2 {
+        font-size: 40px;
+    }
+    .text-title h3 {
+        font-size: 40px;
+    }
+    .img-box {
+        margin-left: 0px;
+    }
+    .about-title-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .about-text-sm {
+        font-size: 14px;
+        line-height: 24px;
+        color: rgb(187, 187, 187);
+    }
+    .services-items {
+        margin-bottom: 35px;
+    }
+    .portfolio-items {
+        margin-bottom: 35px !important;
+    }
+    .testimonial-items {
+        margin-bottom: 35px !important;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px){
+    #Home .container {
+        padding: 0px;
+        max-width: 100% !important;
+    }
+    .navbar {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        background: rgb(230, 230, 230);
+    }
+    .img-box {
+        margin-left: 0px;
+    }
+    .sm-text{
+        font-size: 14px !important;
+    }
+    .services-items {
+        margin-bottom: 35px;
+    }
+    .portfolio-items {
+        margin-bottom: 35px !important;
+    }
+    .testimonial-items {
+        margin-bottom: 35px !important;
+    }
+}
+
+
+@media (min-width:401px) and (max-width:576px){
+    #Home .container {
+        padding: 0px;
+    }
+    .navbar {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        background: rgb(230, 230, 230);
+    }
+    .logo a {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .text-title h4 {
+        font-size: 30px;
+    }
+    .text-title h2 {
+        font-size: 30px;
+    }
+    .text-title h3 {
+        font-size: 30px;
+    }
+    .text-title p {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    .img-box {
+        width: 500px;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .heading-text {
+        font-size: 25px;
+        color: #18fb00;
+    }
+    .about-title-text {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .about-text-sm {
+        font-size: 15px;
+        line-height: 25px;
+        color: rgb(174, 174, 174);
+    }
+    .progress-items {
+        margin-left: 0px;
+    }
+    .portfolio-items {
+        margin-bottom: 35px !important;
+    }
+    .testimonial-items {
+        margin-bottom: 35px !important;
+    }
+    .cpyright-massege h5 {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:400px){
+    #Home .container {
+        padding: 0px;
+    }
+    .navbar {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        background: rgb(230, 230, 230);
+    }
+    .logo a {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .text-title h4 {
+        font-size: 30px;
+    }
+    .text-title h2 {
+        font-size: 30px;
+    }
+    .text-title h3 {
+        font-size: 30px;
+    }
+    .text-title p {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    .img-box {
+        width: 500px;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .heading-text {
+        font-size: 25px;
+        color: #18fb00;
+    }
+    .about-title-text {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .about-text-sm {
+        font-size: 15px;
+        line-height: 25px;
+        color: rgb(174, 174, 174);
+    }
+    .progress-items {
+        margin-left: 0px;
+    }
+    .portfolio-items {
+        transition: transform 0.5s;
+        margin-bottom: 35px !important;
+    }
+    .testimonial-items {
+        margin-bottom: 40px !important;
+    }
+    .cpyright-massege h5 {
+        font-size: 16px;
+    }
+}
